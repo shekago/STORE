@@ -1,0 +1,152 @@
+
+#div01{
+
+	display:flex;}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.banner {
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+
+.banner h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.banner button {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.about {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.about h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-size: 18px;
+}
+
+.about a {
+	color: #333;
+	text-decoration: none;
+}
+
+.about a:hover {
+	text-decoration: underline;
+}
+
+.services {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.services h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.services ul {
+	list-style: none;
+}
+
+.services li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.services a {
+	color: #333;
+	text-decoration: none;
+}
+
+.services a:hover {
+	text-decoration: underline;
+}
+
+.contact {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact label {
+	font-size: 
+
+Written by Chatsonic
+}
